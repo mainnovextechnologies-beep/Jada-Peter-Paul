@@ -1,0 +1,6 @@
+Advocate Jada Peter Paul — React + Vite
+Includes: responsive legal website, practice areas, photo gallery/lightbox, contact form with validated WhatsApp prefill, demo-only floating shortcuts, privacy notice, favicon set, robots.txt, sitemap.xml, LegalService JSON-LD, SEO metadata, and MA Innovex Technologies footer credit.
+
+Important: replace REPLACE-WITH-YOUR-DOMAIN in index.html, public/robots.txt, and public/sitemap.xml before production deployment.
+Run: npm install && npm run dev
+Build: npm run build
