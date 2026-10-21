@@ -1,6 +1,6 @@
 # Advocate Jada Peter Paul — React + Vite Website
 
-Premium, responsive legal-practice website built with React, Vite, JavaScript, CSS and Lucide React icons.
+Premium, responsive civil, criminal and family-law website built with React, Vite, JavaScript, CSS and Lucide React icons. Includes filterable practice areas and an expanded enquiry dropdown.
 
 ## Requirements
 - Node.js 18+ (Node.js 20+ recommended)
@@ -38,7 +38,7 @@ SEO improvements help search engines understand the website but cannot guarantee
 ## WhatsApp enquiry form
 The form validates fields and consent, then opens a prefilled WhatsApp message to `+91 96760 74671`. The visitor must review and send the message inside WhatsApp. Form values are not sent to this website's server or stored in local storage. A browser popup blocker may require the visitor to allow/open the WhatsApp link.
 
-The floating WhatsApp, call and location buttons intentionally show demo modals and do not launch external services. The enquiry form's WhatsApp handoff is separate and functional.
+The floating WhatsApp button opens the advocate WhatsApp chat, the call button uses the device phone handler (`tel:`), and the location button opens Google Maps directions/search for the supplied office address. These actions require a deployed site with internet access; calling depends on the visitor device/browser. The enquiry form prepares a personalized WhatsApp message and still requires the visitor to press Send inside WhatsApp.
 
 ## Legal and content review
 This is a website implementation, not legal advice. Confirm all service offerings and professional imagery before launch. No case result is guaranteed. The site includes a general-information disclaimer and privacy notice.
